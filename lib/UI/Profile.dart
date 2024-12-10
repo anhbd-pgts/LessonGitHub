@@ -56,6 +56,16 @@ class ProfilePage extends StatelessWidget {
                 ),
               ],
             ),
+            const SizedBox(height: 20), // Thêm khoảng cách giữa thông tin và mô tả
+            // Mô tả
+            const Text(
+              'Chào mừng bạn đến với trang cá nhân của tôi. Tôi là một lập trình viên Flutter, đam mê xây dựng các ứng dụng di động hiệu quả và dễ sử dụng.',
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.grey,
+              ),
+              textAlign: TextAlign.center, // Căn giữa văn bản
+            ),
             const SizedBox(height: 30),
             ElevatedButton.icon(
               onPressed: () {
